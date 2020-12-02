@@ -10,3 +10,4 @@ def test_search():
     browser.all('.result').first.click()
 
     browser.all('[href="/yashaka/selene"]').should(have.size(3))
+    
